@@ -65,6 +65,12 @@ html {
     padding:20px;
     font-family: 'Playfair Display', serif;
 }
+#browse p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+    color:#4f4f4f;
+}
 h2 {
     color: #4f4f4f;
     font-family: 'Playfair Display', serif;
@@ -105,13 +111,13 @@ h2 {
 .footer-icons p, {
     color:#fff;
 }
-.follow_me {
-    font-family: 'Playfair Display', serif;
-    font-size:22px;
-    color: #fff;
+
+.social_media {
+    padding:0;
 }
-.contact {
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-    font-size: 30px;
+.social_titles{
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    padding:0;
 }
