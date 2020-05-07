@@ -18,7 +18,7 @@ html {
 
 /*--Index.html Page--*/
 .jumbotron {
-    background-image:url("/templates/images/main.jpg");
+    background-image:url("/templates/images/baking.jpg");
     background-position:center;
     background-attachment: fixed;
     -webkit-background-size:cover;
@@ -28,8 +28,8 @@ html {
 }
 
 .overlay {
-    height:70%;
-    width:60%;
+    height:60%;
+    width:50%;
     background-color: rgba(255, 255, 255, 0.8);
     align-items:center;
     vertical-align: central;
@@ -42,56 +42,37 @@ html {
     font-style: italic;
     
 }
-#school_intro {
-    color: #000;
-    font-family: 'Playfair Display', serif;
-    font-weight:400;
-}
-
-.intro_messages {
-    font-size: 20px;
-    font-family: 'Playfair Display', serif;
-}
-/*--announcement--*/
-#news {
+.courses_descriptions {
+    list-style: none;
+    font-size:20px;
+    font-family: 'san serif', serif;
+    font-style:italic;
+    line-height: 1.5em;
     padding:0;
-    margin:0;
-    font-family: 'Playfair Display', serif;
 }
-/*--browse courses/giftvouchers cards--*/
-#browse {
-    margin-top:20px;
-    margin-bottom:20px;
-    padding:20px;
-    font-family: 'Playfair Display', serif;
+.filter_checkbox {
+    font-size:26px;
+    font-family: 'san serif', serif;
 }
-#browse p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 20px;
-    color:#4f4f4f;
-}
+
 h2 {
+    font-family: 'Playfair Display', serif;
+    padding-bottom:30px;
     color: #4f4f4f;
-    font-family: 'Playfair Display', serif;
 }
-.index-card {
-    margin-top:20px;
-    font-family: 'Playfair Display', serif;
-}
-
-.img-index{
-    height: 350px;
-}
-
 .cardbody1 {
     background-color: #BB5978;
     font-family: 'Playfair Display', serif;
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 .cardbody2 {
     background-color:#91ACC0;
+    font-family: 'Playfair Display', serif;
+    opacity:0.8;
+}
+.cardbody3 {
+    background-color: #8C6A6B;
     font-family: 'Playfair Display', serif;
     opacity:0.8;
 }
@@ -101,14 +82,6 @@ h2 {
 }
 a:hover {
     color:#fff;
-}
-/*--students feebback--*/
-.comments {
-    font-family: 'Playfair Display', serif;
-}
-.ratings {
-    padding:0;
-    color: #ffd633;
 }
 /*--footer--*/
 #footer-details {
@@ -128,5 +101,3 @@ a:hover {
     font-size: 25px;
     padding:0;
 }
-
-/*--COURSES.HTML--*/
