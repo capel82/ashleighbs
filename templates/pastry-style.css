@@ -1,7 +1,6 @@
 html {
     margin:0;
     padding:0:
-
 }
 
 /*--NAVBAR--*/
@@ -16,9 +15,8 @@ html {
     justify-content: end;
 }
 
-/*--Index.html Page--*/
 .jumbotron {
-    background-image:url("/templates/images/strawberry.jpg");
+    background-image:url("/templates/images/crossaints.jpg");
     background-position:center;
     background-attachment: fixed;
     -webkit-background-size:cover;
@@ -50,32 +48,30 @@ html {
     line-height: 1.5em;
     padding:0;
 }
+.filter_checkbox {
+    font-size:26px;
+    font-family: 'san serif', serif;
+}
 h2 {
+    font-family: 'Playfair Display', serif;
+    padding-bottom:30px;
     color: #4f4f4f;
+    text-align: center;
+}
+h4 {
     font-family: 'Playfair Display', serif;
 }
-.img-chef {
-    height:350px;
+.img-crossaint{
     width:350px;
-    margin-bottom:30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:350px;
 }
-.chef-name {
-    margin:20px;
+.courses_lists {
+    list-style: none;
+    padding:0;
+    margin-top:20px;
     font-family: 'san serif', serif;
+    font-szie:24px;
 }
-.img-kitchen {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.item-intro {
-    font-size:20px;
-    font-family: 'san serif', serif;
-
-}
-/*--pastry.html--*/
-
-
-
 /*--footer--*/
 #footer-details {
     background-color: #91ACC0;
