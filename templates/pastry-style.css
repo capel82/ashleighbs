@@ -61,16 +61,40 @@ h2 {
 h4 {
     font-family: 'Playfair Display', serif;
 }
+
+.course_title {
+    background-color:#cccccc;
+}
 .img-crossaint{
     width:350px;
-    height:350px;
+    height:380px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .courses_lists {
     list-style: none;
     padding:0;
     margin-top:20px;
     font-family: 'san serif', serif;
-    font-szie:24px;
+    font-size:18px;
+}
+.courses_dates {
+    font-family: 'san serif', serif;
+    font-size:18px;
+}
+.weekdays {
+    background-color:#525975;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.weekends {
+    background-color:#8C6A6B;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.add_basket {
+    background-color:#BB5978;
 }
 /*--footer--*/
 #footer-details {
