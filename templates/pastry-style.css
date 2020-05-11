@@ -21,7 +21,7 @@ html {
     background-attachment: fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
-    min-height: 80vh;
+    min-height: 60vh;
     margin-top: 0;
 }
 
@@ -48,6 +48,53 @@ html {
     line-height: 1.5em;
     padding:0;
 }
+@media only screen and (max-width: 576px) {
+  .overlay {
+    height:45%;
+    width:100%; 
+}
+    .jumbotron_shoutout{
+    font-size:20px;
+    
+}
+    .jumbotron_descriptions {
+    font-size:10px;  
+}
+    .courses_rows { 
+    margin-left:0;
+    margin-right:0;
+}
+    .column-1 {
+        order:2;
+        width:100%;
+    }
+    .column-2 {
+        order:1;
+        width:100%;
+    }
+    .courses_dates {
+    font-family: 'san serif', serif;
+    font-size:18px;
+    margin-bottom:20px;
+}
+.weekdays_column {
+    margin-bottom:20px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .overlay {
+    height:45%;
+    width:85%; 
+}
+    .jumbotron_shoutout{
+    font-size:40px;
+    
+}
+    .jumbotron_descriptions {
+    font-size:20px;  
+}
+}
+
 .filter_checkbox {
     font-size:26px;
     font-family: 'san serif', serif;
@@ -63,7 +110,8 @@ h4 {
 }
 
 .course_title {
-    background-color:#cccccc;
+    background-color:#525975;
+    color:#fff;
 }
 .img-courses{
     width:350px;
@@ -73,25 +121,29 @@ h4 {
 .courses_lists {
     list-style: none;
     padding:0;
-    margin-top:20px;
+    margin:15px;
     font-family: 'san serif', serif;
-    font-size:18px;
+    font-size:16px;
 }
 .courses_dates {
     font-family: 'san serif', serif;
     font-size:18px;
 }
+
 .weekdays {
-    background-color:#525975;
-    color:#fff;
-    padding-top:10px;
-    padding-bottom:10px;
+    color:#525975;
+    padding:5px;
+    border: solid 2px;
+    margin: 0 50px;
+    border-color:#525975;
+
 }
-.weekends {
-    background-color:#8C6A6B;
-    color:#fff;
-    padding-top:10px;
-    padding-bottom:10px;
+.weekends{
+    color:#8C6A6B;
+    padding: 5px;
+    border: solid 2px;
+    margin: 0 50px;
+    border-color:#8C6A6B;
 }
 .add_basket {
     background-color:#BB5978;
