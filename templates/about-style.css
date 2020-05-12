@@ -42,6 +42,14 @@ html {
     font-style: italic;
     
 }
+.jumbotron_descriptions {
+    list-style: none;
+    font-size:20px;
+    font-family: 'san serif', serif;
+    font-style:italic;
+    line-height: 1.5em;
+    padding:0;
+}
 @media only screen and (max-width: 600px) {
   .overlay {
     height:45%;
