@@ -1,0 +1,168 @@
+html {
+    margin:0;
+    padding:0:
+}
+
+/*--NAVBAR--*/
+.navbar {
+    background-color: #91ACC0;
+    font-family: 'Playfair Display', serif;
+}
+.navbar li {
+    font-weight: bold;
+}
+#navbarText {
+    justify-content: end;
+}
+
+.jumbotron {
+    background-image:url("/templates/images/sodabread.jpg");
+    background-position:center;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    min-height: 60vh;
+    margin-top: 0;
+}
+
+.overlay {
+    height:60%;
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items:center;
+    vertical-align: central;
+    margin-top: 45px;
+}
+.jumbotron_shoutout{
+    color:#000;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+}
+.jumbotron_descriptions {
+    list-style: none;
+    font-size:20px;
+    font-family: 'san serif', serif;
+    font-style:italic;
+    line-height: 1.5em;
+    padding:0;
+}
+@media only screen and (max-width: 576px) {
+  .overlay {
+    height:45%;
+    width:100%; 
+}
+    .jumbotron_shoutout{
+    font-size:20px;
+    
+}
+    .jumbotron_descriptions {
+    font-size:10px;  
+}
+    .courses_rows { 
+    margin-left:0;
+    margin-right:0;
+}
+    .column-1 {
+        order:2;
+        width:100%;
+    }
+    .column-2 {
+        order:1;
+        width:100%;
+    }
+    .courses_dates {
+    font-family: 'san serif', serif;
+    font-size:18px;
+    margin-bottom:20px;
+}
+.weekdays_column {
+    margin-bottom:20px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .overlay {
+    height:45%;
+    width:85%; 
+}
+    .jumbotron_shoutout{
+    font-size:40px;
+    
+}
+    .jumbotron_descriptions {
+    font-size:20px;  
+}
+}
+
+.filter_checkbox {
+    font-size:26px;
+    font-family: 'san serif', serif;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    padding-bottom:30px;
+    color: #4f4f4f;
+    text-align: center;
+}
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.course_title {
+    background-color:#525975;
+    color:#fff;
+}
+.img-courses{
+    width:350px;
+    height:380px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.courses_lists {
+    list-style: none;
+    padding:0;
+    margin:15px;
+    font-family: 'san serif', serif;
+    font-size:16px;
+}
+.courses_dates {
+    font-family: 'san serif', serif;
+    font-size:18px;
+}
+
+.weekdays {
+    color:#525975;
+    padding:5px;
+    border: solid 2px;
+    margin: 0 50px;
+    border-color:#525975;
+
+}
+.weekends{
+    color:#8C6A6B;
+    padding: 5px;
+    border: solid 2px;
+    margin: 0 50px;
+    border-color:#8C6A6B;
+}
+.add_basket {
+    background-color:#BB5978;
+}
+/*--footer--*/
+#footer-details {
+    background-color: #91ACC0;
+}
+
+.footer-icons p, {
+    color:#fff;
+}
+
+.social_media {
+    padding:0;
+}
+.social_titles{
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    padding:0;
+}
