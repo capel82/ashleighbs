@@ -1,0 +1,62 @@
+html {
+    margin:0;
+    padding:0:
+
+}
+
+/*--NAVBAR--*/
+.navbar {
+    background-color: #91ACC0;
+    font-family: 'Playfair Display', serif;
+}
+.navbar li {
+    font-weight: bold;
+}
+#navbarText {
+    justify-content: end;
+}
+
+/*--Index.html Page--*/
+.jumbotron {
+    background-image:url("/templates/images/gift-voucher.jpg");
+    background-position:center;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    min-height: 80vh;
+    margin-top: 0;
+}
+
+h3 {
+    font-family:'Playfair Display', serif;
+    color:#4f4f4f;
+}
+.img-vouchers {
+    width:250px;
+    height:150px;
+    margin-right:35px;
+    margin-left:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.add_basket {
+    background-color:#BB5978;
+}
+/*--footer--*/
+#footer-details {
+    background-color: #91ACC0;
+}
+
+.footer-icons p, {
+    color:#fff;
+}
+
+.social_media {
+    padding:0;
+}
+.social_titles{
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    padding:0;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b028e2bb88.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="register-style.css" type= "text/css"/>
+    <link rel="stylesheet" href="gift-style.css" type= "text/css"/>
     <title>Ashleigh Baking School</title>
 </head>
 <body>
@@ -26,48 +26,83 @@
         <a class="nav-link" href="courses.html">Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="giftvouchers.html">Gift Vouchers</a>
+        <a class="nav-link active" href="giftvouchers.html">Gift Vouchers</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register.html">Register</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="login.html">Login</a>
+        <a class="nav-link" href="login.html">Login</a>
       </li>
     </ul>
   </div>
 </nav>
 <div class="container-fluid p-0">
     <div class="jumbotron"> 
-        <div class="overlay mx-auto p-5 text-center">
-            <p class="display-4 jumbotron_shoutout">Login</p>
-        </div>
+        
     </div>
 </div>
 
-<div class= "container">
-    <div class= "row d-flex justify-content-center my-3">
-        <div class= "col-md-6">
-        <h4>Login</h4>
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Username</label>
-                <input type="username" class="form-control" id="InputUsername" aria-describedby="usernameHelp">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-            <div class="border-top mt-3 pt-2">
-                <small class="text-muted">Create an Account? <a class="ml-2" href="register.html">Register</a></small>
-            </div>
-        </form>
-        </div><!--end col div-->
-    </div><!--end row div-->
-</div><!--end container div-->
-
+<div class="container-fluid bg-light py-3">
+    <div id="gift_description" class="row my-3">
+        <div class="col-md-12 text-center">
+        <h3>Choose Your Gift Vouchers</h3>
+        <p class="font-italic"><i class="fas fa-check mx-2"></i> FREE POSTAGE & last for 5 years!</p>
+        <p class="font-italic"><i class="fas fa-check mx-2"></i> Excellent gifts for family, relatives and friends.</p>
+        </div>
+    </div><!--div end 1st row-->
+    <div class ="row justify-content-center">
+        <div class="col-md-10">
+            <h5><strong>Step 1:</strong> Choose one card below</h5>
+            <form>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/birthday1.png">
+                        </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/birthday2.png">
+                        </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/whiteflowers.png">
+                        </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                        <label class="form-check-label" for="defaultCheck4">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/bluegift.png">
+                        </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                        <label class="form-check-label" for="defaultCheck5">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/thanks.png">
+                        </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                        <label class="form-check-label" for="defaultCheck6">
+                            <img class="img-vouchers img-fluid" alt="Responsive image" src="images/congratulations.png">
+                        </label>
+                </div><!-- end form check-->
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"><strong>Step 2:</strong> Choose the amount of value</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Euro 50</option>
+                        <option>Euro 100</option>
+                        <option>Euro 150</option>
+                        <option>Euro 200</option>
+                    </select>
+                </div><!--end div form group-->
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"><strong>Step 3:</strong>Enter Your Personal Messages</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div><!--end div form group-->
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea2"><strong>Step 4:</strong> Enter Recipient Address</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"></textarea>
+                </div><!--end div form group-->
+                <a href="basket.html" type="submit" class="btn add_basket">Add to Basket</a>
+            </form>
+        </div><!--end div col-->
+    </div><!--div end row-->
+</div><!--div end container-->
 <footer class="footer mt-auto">
 <div id="footer-details" class="container-fluid">
     <div class="row p-3">
@@ -76,7 +111,7 @@
                 <p> Follow Us</p>
             </div>
             <div class="row justify-content-center footer-icons">
-                <ul class="social_media">
+                <ul>
                     <li class="list-inline-item"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f text-white fa-2x mx-2"></i></a></li>
                     <li class="list-inline-item"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-white fa-2x mx-2"></i></a></li>
                     <li class="list-inline-item"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter text-white fa-2x mx-2"></i></a></li>

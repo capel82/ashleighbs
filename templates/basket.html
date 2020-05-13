@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b028e2bb88.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="register-style.css" type= "text/css"/>
+    <link rel="stylesheet" href="basket-style.css" type= "text/css"/>
     <title>Ashleigh Baking School</title>
 </head>
 <body>
@@ -40,33 +40,48 @@
 <div class="container-fluid p-0">
     <div class="jumbotron"> 
         <div class="overlay mx-auto p-5 text-center">
-            <p class="display-4 jumbotron_shoutout">Login</p>
+            <p class="display-4 jumbotron_shoutout">Your Basket</p>
         </div>
     </div>
 </div>
 
-<div class= "container">
-    <div class= "row d-flex justify-content-center my-3">
-        <div class= "col-md-6">
-        <h4>Login</h4>
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Username</label>
-                <input type="username" class="form-control" id="InputUsername" aria-describedby="usernameHelp">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-            <div class="border-top mt-3 pt-2">
-                <small class="text-muted">Create an Account? <a class="ml-2" href="register.html">Register</a></small>
-            </div>
-        </form>
-        </div><!--end col div-->
-    </div><!--end row div-->
-</div><!--end container div-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 d-flex justtify-content-center">
+        <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Items</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Cake for All Occasion<br>5 July 2020 Wednesday 7.00pm-9.30pm</td>
+      <td>Euro 80<a  href="#" class="btn" role ="button"><i class="fas fa-times fa-2x mx-4"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><img class="img-baskets img-fluid" alt="Responsive image" src="images/bluegift.png"><p>Gift Voucher<br>To Mrs Long, Happy Wedding Anniversary. From Mr.Long<br> 56, Cool Street, Bray. Co.Wicklow.</p></td>
+      <td>Euro 80<a href="#" class="btn" role="button"><i class="fas fa-times fa-2x mx-4"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">Total</th>
+      <td>3 Items</td>
+      <td>Euro 160</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </div>
+    <div class="row mb-5">
+    <div class="col-md-6 text-center">
+    <a class="btn btn-dark" href="#" role="button">Proceed to Checkout</a>
+    </div>
+    </div>
+</div>
 
 <footer class="footer mt-auto">
 <div id="footer-details" class="container-fluid">
