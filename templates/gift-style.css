@@ -34,11 +34,9 @@ h3 {
 .img-vouchers {
     width:250px;
     height:150px;
-    margin-right:35px;
-    margin-left:5px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin: 10px 35px 5px 10px;
 }
+
 .add_basket {
     background-color:#BB5978;
 }

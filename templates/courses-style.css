@@ -86,33 +86,32 @@ html {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    padding-bottom:30px;
     color: #4f4f4f;
 }
 div .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.index-card {
+    margin-top:20px;
+    font-family: 'Playfair Display', serif;
+}
 .cardbody1 {
     background-color: #BB5978;
-    font-family: 'Playfair Display', serif;
     opacity: 0.8;
 }
-
 .cardbody2 {
     background-color:#91ACC0;
-    font-family: 'Playfair Display', serif;
     opacity:0.8;
 }
 .cardbody3 {
     background-color: #8C6A6B;
-    font-family: 'Playfair Display', serif;
     opacity:0.8;
 }
 .card-link {
     font-size: 30px;
     color: #000;
 }
-a:hover {
+.index-card a:hover {
     color:#fff;
 }
 /*--footer--*/
